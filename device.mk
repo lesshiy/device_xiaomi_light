@@ -18,16 +18,25 @@ AB_OTA_UPDATER := true
 
 AB_OTA_PARTITIONS += \
     boot \
+    dpm \
     dtbo \
+    gz \
     lk \
+    logo \
+    mcupm \
+    md1img \
+    pi_img \
     preloader \
     product \
+    scp \
+    spmfw \
+    sspm \
     system \
+    tee \
     vbmeta \
     vbmeta_system \
     vbmeta_vendor \
-    vendor \
-    vendor_boot
+    vendor
 
 # Enable project quotas and casefolding for emulated storage without sdcardfs
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
