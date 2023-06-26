@@ -48,6 +48,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# VNDK
+PRODUCT_TARGET_VNDK_VERSION := 31
+
 # API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
@@ -71,6 +74,11 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-mtkimpl.recovery \
     libmtk_bsg.recovery
 
+# Health Hal
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.1-impl \
+    android.hardware.health@2.1-service
+
 # Update Engine
 PRODUCT_PACKAGES += \
     update_engine \
@@ -78,7 +86,8 @@ PRODUCT_PACKAGES += \
     update_verifier
 
 PRODUCT_PACKAGES_DEBUG += \
-    update_engine_client
+    update_engine_client \
+    bootctl
 
 # MTK Preloader Utils
 PRODUCT_PACKAGES += \
