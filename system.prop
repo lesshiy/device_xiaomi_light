@@ -4,6 +4,7 @@ ro.sys.usb.storage.type=mtp
 # Hardware
 ro.vendor.mediatek.platform=MT6833
 ro.hardware=mt6833
+ro.hardware.vulkan=mali
 
 # Crypto
 ro.crypto.volume.filenames_mode=aes-256-cts
