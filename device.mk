@@ -32,12 +32,12 @@ AB_OTA_PARTITIONS += \
     spmfw \
     sspm \
     system \
-    system_ext
+    system_ext \
     tee \
     vbmeta \
     vbmeta_system \
     vbmeta_vendor \
-    vendor
+    vendor \
 
 # Enable project quotas and casefolding for emulated storage without sdcardfs
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
