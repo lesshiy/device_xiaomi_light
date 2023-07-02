@@ -1,35 +1,15 @@
-# USB
-ro.sys.usb.storage.type=mtp
-
-# Hardware
-ro.vendor.mediatek.platform=MT6833
-ro.hardware=mt6833
-ro.hardware.vulkan=mali
-
 # Crypto
 ro.crypto.volume.filenames_mode=aes-256-cts
-
-# TEE
-ro.vendor.mtk_tee_gp_support=1
-ro.vendor.mtk_microtrust_tee_support=1
-ro.vendor.mtk_svp_on_mtee_support=1
-
-# FBE
-fbe.metadata.wrappedkey=true
 
 # Gatekeeper
 ro.hardware.gatekeeper=beanpod
 
-# Kmsetkey
+# Keymaster
 ro.hardware.kmsetkey=beanpod
 
-# Storage & Props
-persist.adb.nonblocking_ffs=0
-external_storage.projid.enabled=1
-external_storage.casefold.enabled=1
-external_storage.sdcardfs.enabled=0
-ro.vendor.mtk_f2fs_enable=1
-ro.hardware.egl=meow
-ro.sf.lcd_density=440
-ro.vendor.mtk_emmc_support=1
-ro.vendor.mtk_ufs_support=1
+# TEE
+ro.vendor.mtk_microtrust_tee_support=1
+ro.vendor.mtk_tee_gp_support=1
+
+# USB
+ro.sys.usb.storage.type=mtp

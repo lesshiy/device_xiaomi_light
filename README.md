@@ -1,15 +1,23 @@
-#### Ported from Camellia
+Xiaomi Poco M4 5G TWRP codenamed _"light"_ is an entry-level smartphone from Xiaomi announced in May 2022.
 
-## Device Tree for Xiaomi POCO M4 5G / Redmi Note 11R aka light
+## Device specifications
 
-Android 13 MIUI 14
+| Device                  | Xiaomi Poco M4 5G                                           |
+| ----------------------- | :---------------------------------------------------------- |
+| SoC                     | MediaTek Dimensity 700 5G (7nm)                             |
+| CPU                     | 2 x 2.2 GHz Cortex-A76 & 6 x 2.0 GHz Cortex-A55             |
+| GPU                     | Mali-G57 MC2                                                |
+| Memory                  | 4GB / 6GB                                                   |
+| Shipped Android version | 12 (MIUI 13)                                                |
+| Storage                 | 64GB / 128GB                                                |
+| MicroSD                 | Up to 512 GB                                                |
+| Battery                 | Non-removable Li-Po 5000 mAh                                |
+| Dimensions              | 164 x 76.1 x 8.9 mm                                         |
+| Display                 | 2400 x 1080 (20:9), 6.58 inch                               |
+| Rear Camera 1           | 50 MP, f/1.8, 0.7µm, PDAF                                   |
+| Rear Camera 2           | 2 MP, f/2.4, (depth)                                        |
+| Front Camera            | 8 MP, f/2.4, 1.0µm                                          |
 
-MediaTek Dimensity 700 MT6833
 
-```
-ro.system.build.fingerprint=Redmi/light/light:13/TP1A.220624.014/V14.0.1.0.TLSRUXM:user/release-keys
-ro.build.description=light-user 12 TP1A.220624.014 V14.0.1.0.TLSRUXM release-keys
-ro.build.id=TP1A.220624.014
-ro.build.display.id=AN6138A-light-build-20230321134835
-ro.build.version.incremental=V14.0.1.0.TLSRUXM
-```
+## Device picture
+![Xiaomi Poco M4 5G](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-poco-m4-5g-2.jpg)
